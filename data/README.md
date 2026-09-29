@@ -13,3 +13,25 @@ The provided files have different row meanings. Check keys before joining and ke
 Important target note: the starter defines `high_user_rating` only when a movie has at least 20 user ratings. Movies below that evidence threshold have an undefined target, represented as a missing value rather than class 0.
 
 For pre-release prediction questions, do not use post-release fields such as observed revenue, popularity, vote counts, rating summaries, or rating dates as predictors.
+
+Movie Box Office Success Project
+ 
+Objective
+This project analyzes movie attributes associated with box office revenue to determine possible connections between movie data/characteristics and profitability.
+ 
+Data Sources
+- movies_metadata.csv
+- ratings.csv
+- credits_curated.csv
+- keywords_curated.csv
+- links.csv
+ 
+Repository Structure
+- data/ contains raw datasets
+- notebooks/ contains analysis notebooks
+- reports/ contains project deliverables
+ 
+Reproduction Instructions
+1. Open the notebook in notebooks.
+2. Run all cells from top to bottom.
+3. Data files are located in the directory.
